@@ -848,6 +848,6 @@ def generate_html_report(df, patient_name):
 </html>"""
     
     return html
-
+  
 st.divider()
 st.caption("All processing happens on the server. Data is not stored permanently.")
