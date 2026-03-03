@@ -122,7 +122,7 @@ def preprocess_excel_cached(file_bytes, file_name, skip_rows=1):
                 'Mean Depth': mean_depth,
                 'Min Depth': gene_data['Min Depth'].min(),
                 'Max Depth': gene_data['Max Depth'].max(),
-                '% 1x': mean_1x,
+                '% 1x ': mean_1x,  # trailing space to match expected output format
             }
             result.append(summary)
         
